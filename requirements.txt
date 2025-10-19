@@ -1,0 +1,9 @@
+# Core Hugging Face and PyTorch libraries
+transformers
+torch
+accelerate
+# Model-specific dependencies
+timm
+einops
+# Image processing
+Pillow
