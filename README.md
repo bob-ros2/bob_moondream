@@ -232,9 +232,3 @@ $ ros2 run bob_moondream query.sh object_detection
 | `visual_query` | `bob_moondream_msgs/srv/VisualQuery` | Asks a question (`prompt`) about the latest image. |
 | `object_detection` | `bob_moondream_msgs/srv/VisualQuery` | Detects objects described by the `prompt`. Returns a JSON string. |
 | `pointing` | `bob_moondream_msgs/srv/VisualQuery` | Finds points of interest described by the `prompt`. Returns a JSON string. |
-
-## Overview
-
-![Example Detection](./images/real_time.png)
-![Example Detection](./images/services.png)
-![Example Detection](./images/string_topics.png)
