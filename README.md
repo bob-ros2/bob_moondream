@@ -4,6 +4,11 @@ This ROS 2 package provides a node that serves as a wrapper for the [`vikhyatk/m
 
 The node loads the model into memory upon startup and processes the latest received image when a service is called or a prompt is published on a topic. It can perform image captioning, answer visual questions, detect objects based on a text description, and locate the center point of an object based on a textual description. It can also publish detection results and an annotated video feed for visualization.
 
+## Overview
+
+![Real-Time Diagram](./images/real_time.png)
+![ROS Services](./images/services.png)
+![String Topics](./images/string_topics.png)
 
 ### Model Loading
 
@@ -14,6 +19,7 @@ The download location is determined by the `cache_dir` parameter, which defaults
 When loaded onto a GPU (the default behavior), the model consumes approximately **4 GB of VRAM**. Ensure your GPU has sufficient memory available.
 
 Subsequent launches of the node will be much faster, as the model will be loaded directly from this local cache, allowing for offline operation after the initial download.
+
 
 
 ## Dependencies
@@ -226,3 +232,9 @@ $ ros2 run bob_moondream query.sh object_detection
 | `visual_query` | `bob_moondream_msgs/srv/VisualQuery` | Asks a question (`prompt`) about the latest image. |
 | `object_detection` | `bob_moondream_msgs/srv/VisualQuery` | Detects objects described by the `prompt`. Returns a JSON string. |
 | `pointing` | `bob_moondream_msgs/srv/VisualQuery` | Finds points of interest described by the `prompt`. Returns a JSON string. |
+
+## Overview
+
+![Example Detection](./images/real_time.png)
+![Example Detection](./images/services.png)
+![Example Detection](./images/string_topics.png)
