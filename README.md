@@ -4,6 +4,11 @@ This ROS 2 package provides a node that serves as a wrapper for the [`vikhyatk/m
 
 The node loads the model into memory upon startup and processes the latest received image when a service is called or a prompt is published on a topic. It can perform image captioning, answer visual questions, detect objects based on a text description, and locate the center point of an object based on a textual description. It can also publish detection results and an annotated video feed for visualization.
 
+-   [Share on Twitter / X](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fbob-ros2%2Fbob_moondream&text=Check%20out%20bob_moondream%2C%20a%20ROS%202%20wrapper%20for%20the%20Moondream2%20Vision-Language%20Model!&hashtags=ROS%2CRobotics%2CAI%2CVLM%2CComputerVision)
+-   [Share on LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgithub.com%2Fbob-ros2%2Fbob_moondream&title=bob_moondream%3A%20A%20ROS%202%20wrapper%20for%20the%20Moondream2%20VLM&summary=This%20ROS%202%20package%20provides%20a%20flexible%20interface%20for%20the%20Moondream2%20Vision-Language%20Model%2C%20enabling%20visual%20reasoning%20and%20perception%20tasks%20for%20robotics%20applications.)
+-   [Share on Reddit](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fbob-ros2%2Fbob_moondream&title=I%20created%20a%20ROS%202%20wrapper%20for%20the%20Moondream2%20Vision-Language%20Model)
+-   [Share on Hacker News](https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2Fbob-ros2%2Fbob_moondream&t=Show%20HN%3A%20A%20ROS%202%20wrapper%20for%20the%20Moondream2%20VLM)
+
 ## Overview
 
 ![Real-Time Diagram](./images/real_time.png)
