@@ -1,4 +1,4 @@
-# Moondream ROS Node
+# ROS Package [bob_moondream](https://github.com/bob-ros2/bob_moondream)
 
 This ROS 2 package provides a node that serves as a wrapper for the [`vikhyatk/moondream2`](https://huggingface.co/vikhyatk/moondream2), a small but powerful **vision-language model (VLM)**. The `bob_moondream` node subscribes to a raw image topic and exposes a flexible ROS 2 interface for various **visual reasoning and perception tasks**.
 
