@@ -10,10 +10,9 @@ The node loads the model into memory upon startup and processes the latest recei
 -   [Share on X](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fbob-ros2%2Fbob_moondream&text=Check%20out%20bob_moondream%2C%20a%20ROS%202%20wrapper%20for%20the%20Moondream2%20Vision-Language%20Model!&hashtags=ROS%2CRobotics%2CAI%2CVLM%2CComputerVision)
 
 ## Overview
-
-![Real-Time Diagram](./images/real_time.png)
-![ROS Services](./images/services.png)
-![String Topics](./images/string_topics.png)
+![Real-Time Diagram](https://github.com/bob-ros2/bob_moondream/blob/main/images/real_time.png?raw=true)
+![ROS Services](https://github.com/bob-ros2/bob_moondream/blob/main/images/services.png?raw=true)
+![String Topics](https://github.com/bob-ros2/bob_moondream/blob/main/images/string_topics.png?raw=true)
 
 ### Model Loading
 
