@@ -160,7 +160,7 @@ To disable the continuous processing, simply set the parameter to an empty strin
 ros2 param set /moondream prompt_detect ""
 ```
 
-## Interactive Query Script (`query.sh`)
+## Interactive Query Script
 
 The package includes a convenient helper script, `query.sh`, for interacting with the node's topic-based interface directly from the command line. This script allows you to send prompts and see the results in real-time without needing to write a separate node.
 
